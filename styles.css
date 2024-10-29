@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(Norse-Bold.otf) format("opentype");
+    
+}
+
+.logo-container {
+    position: absolute;
+    left: 0;
+    top: 200px;
+    background: black;
+    opacity: 0.3;
+    width: 33vw;
+    
+}
+
+.logo-text {
+    font-family: 'Norse-Bold';
+    color:white;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+.image-sidebar {
+    position: absolute;
+    width: 33vw;
+    height: 100vh;
+    float: left;
+    z-index: -1;
+}
+
+.img-container {
+    position: relative;
+}
+
+footer {
+    font-weight: 50;
+    color:white;
+    position: absolute;
+    top: 660px;
+    left: 100px;
+    
+
+}
+
+footer > a {
+    color:white;
+    text-decoration: underline;
+}
