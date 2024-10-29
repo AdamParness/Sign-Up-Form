@@ -30,6 +30,28 @@
     z-index: -1;
 }
 
+.top {
+    float:right;
+    width: 65.9vw;
+    height: 33vh;
+    background-color: #E8E8E8;
+    padding-top: 30px;
+}
+
+.middle {
+    position: absolute;
+    top: 300px;
+    right:250px;
+}
+
+
+h1 {
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: x-large;
+}
+
 .img-container {
     position: relative;
 }
@@ -38,7 +60,7 @@ footer {
     font-weight: 50;
     color:white;
     position: absolute;
-    top: 660px;
+    top: 700px;
     left: 100px;
     
 
@@ -47,4 +69,50 @@ footer {
 footer > a {
     color:white;
     text-decoration: underline;
+}
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: system-ui, -apple-system, sans-serif;
+    font-weight: 500;
+}
+
+input {
+    display: block;
+    width: 200px;
+    padding: 8px;
+    margin-right: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
 }
