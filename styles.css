@@ -34,7 +34,7 @@
     float:right;
     width: 65.9vw;
     height: 33vh;
-    background-color: #E8E8E8;
+    background-color: #F5F5F5;
     padding-top: 30px;
 }
 
@@ -115,4 +115,21 @@ input:focus {
     .form-grid {
         grid-template-columns: 1fr;
     }
+}
+
+button {
+    background-color: #596D48;
+    border-radius: 5px;
+    height: 35px;
+    width: 150px;
+    color: white;
+}
+
+button:hover{
+    transform: scale(1.05,1.05);
+    transition: all .5s ease-out;
+}
+
+input:invalid{
+    border-color: red;
 }
